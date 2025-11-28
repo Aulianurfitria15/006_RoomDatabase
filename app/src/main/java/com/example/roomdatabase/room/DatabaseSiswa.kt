@@ -22,5 +22,4 @@ abstract class DatabaseSiswa : RoomDatabase() {
             })
         }
     }
-
 }
