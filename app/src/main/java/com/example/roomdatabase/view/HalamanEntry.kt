@@ -48,6 +48,7 @@ fun EntrySiswaScreen(
                 title = stringResource(DestinasiEntry.titleRes),
                 canNavigateBack = true,
                 scrollBehavior = scrollBehavior,
+                navigateUp = navigateBack
             )
         } ) { innerPadding ->
         EntrySiswaBody(
