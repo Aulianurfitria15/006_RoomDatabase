@@ -17,7 +17,7 @@ abstract class DatabaseSiswa : RoomDatabase() {
             return (Instance?: synchronized(this){
                 Room.databaseBuilder(
                     context, DatabaseSiswa::class.java,
-                    "siswa Database")
+                    "siswa_database")
                     .build().also { Instance = it }
             })
         }
