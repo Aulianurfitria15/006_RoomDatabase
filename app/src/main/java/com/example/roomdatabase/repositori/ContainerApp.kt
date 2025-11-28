@@ -18,3 +18,5 @@ class ContainerDataApp(private val context: Context) : ContainerApp {
 
 class AplikasiSiswa : Application() {
 
+    lateinit var container: ContainerApp
+
